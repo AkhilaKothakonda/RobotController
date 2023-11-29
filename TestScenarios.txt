@@ -1,0 +1,17 @@
+1. Valid input like N 2 2 or E 20 30 
+ first element should be characters among N,E,S,W 
+ second element should be integer from 0 to 99
+ third element should be integer from 0 to 99
+ should contain 3 elemnts
+2. First line of input.txt file is taken as current position and second line of the code is taken as sequence of movements, Remaining lines are ignored.
+
+3. Negative scenarios with invalid input should throw error 
+    X 4 5
+    E 100 90
+    S 50 100
+    E 6 7 10
+4. Valid sequence of movements    
+    Elements should be G, R, L and integers from 1 to 99
+5. Invalid sequence of movements should error out and process should exit
+6. During the robot movement, if it crossed grid of 100*100 process should exit with error
+7. Valid input and robot movement within grid should print final destination with Direction and position of robot
