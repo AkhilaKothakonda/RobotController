@@ -9,6 +9,6 @@ dist/robot.js has an executable javascript format of typescript code. Rus javasc
 
 TestScenarios.txt has the positive and negative scenarios to validate the functionality
 
-test/robot.test.js has the unit tests
+test/robot.test.js has the unit tests. Run tests with command npm test
  
 
